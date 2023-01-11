@@ -1,0 +1,32 @@
+#header-container {
+  width: 100%;
+  background-color: dimgrey;
+  margin-bottom: 2rem;
+}
+
+
+#header-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 2rem;
+}
+
+#links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#nav-dropdown,
+#logo-div {
+  width: fit-content;
+}
+
+#nav-dropdown {
+  text-align: right;
+}
+.logo {
+  width: 5rem;
+}

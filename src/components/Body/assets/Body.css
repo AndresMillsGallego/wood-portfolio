@@ -1,0 +1,25 @@
+#main-body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.splash-images {
+  width: 90%;
+  margin: auto;
+  height: 75vh;
+  display: flex;
+  justify-content: space-around;
+  align-items:baseline;
+}
+
+.image-description {
+  border: 3px solid;
+  width: 30%;
+  height: 100%;
+}
+
+.main-page-images {
+  width: 60%;
+  height: 100%;
+}
