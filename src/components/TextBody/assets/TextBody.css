@@ -1,7 +1,18 @@
-.text-body {
-  width: 75%;
-  margin: 2rem auto;
-  padding: 10px;
+.text {
+  color:beige;
+  font-size: 1.3rem;
+  line-height: 1.75rem;
+  text-indent: 2rem;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+.header {
+  color: beige;
   text-align: center;
-  border: 3px solid;
+  border-bottom: 4px double;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }

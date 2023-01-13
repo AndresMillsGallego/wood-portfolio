@@ -1,9 +1,7 @@
 #header-container {
   width: 100%;
-  background-color: dimgrey;
-  margin-bottom: 2rem;
+  background-color: #565656;
 }
-
 
 #header-div {
   width: 100%;
@@ -19,6 +17,13 @@
   justify-content: space-evenly;
 }
 
+.link-text {
+  color: 	rgb(20,174,219);
+}
+
+#tools {
+  color: rgb(240,202,45);
+}
 #nav-dropdown,
 #logo-div {
   width: fit-content;

@@ -18,17 +18,17 @@ const Header = () => {
             </Container>
             <Container id="links">
               <Nav.Item>
-                <Nav.Link>Floors</Nav.Link>
+                <Nav.Link href="/floors"><p className="link-text">Floors</p></Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link>Staircases</Nav.Link>
+                <Nav.Link href="/stairs"><p className="link-text">StairCases</p></Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link>Furniture</Nav.Link>
+                <Nav.Link href="furniture"><p className="link-text">Furniture</p></Nav.Link>
               </Nav.Item>
             </Container>
             <Container id="nav-dropdown">
-              <NavDropdown title="Tools" >
+              <NavDropdown id="tools" title="Tools" >
                 <NavDropdown.Item eventKey="1">About Us</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item eventKey="2">Contact</NavDropdown.Item>

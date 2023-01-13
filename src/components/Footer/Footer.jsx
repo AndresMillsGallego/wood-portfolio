@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div id="footer-container">
       <div id="footer-div">
-        <p> &copy; Andres Mills Gallego</p>
+        <p>&copy; 2023 Andres Mills Gallego</p>
       </div>
     </div>
   )
