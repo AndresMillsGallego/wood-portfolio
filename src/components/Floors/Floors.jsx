@@ -2,7 +2,7 @@ import React from "react";
 
 const Floors = () => {
   return (
-    <div>
+    <div className="routes">
       <h1>Floors</h1>
     </div>
   )
