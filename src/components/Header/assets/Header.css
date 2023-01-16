@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
 }
 
 #links {
@@ -18,20 +18,38 @@
 }
 
 .link-text {
-  color: 	rgb(20,174,219);
+  color: rgb(20, 174, 219);
 }
 
 #tools {
-  color: rgb(240,202,45);
+  color: rgb(240, 202, 45);
 }
-#nav-dropdown,
-#logo-div {
+#nav-dropdown {
   width: fit-content;
 }
 
+#logo-div {
+  width: 20%;
+}
 #nav-dropdown {
   text-align: right;
 }
-.logo {
-  width: 5rem;
+
+#header-name {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(246, 125, 84);
+}
+
+#hammer {
+  height: 3rem;
+}
+
+#name {
+  margin-bottom: 0;
+}
+#job {
+  margin-top: 0;
 }
