@@ -1,3 +1,19 @@
 #off-canvas {
-  background-color:rgba(141, 139, 139, 0.913);
+  background-color: #565656;
+}
+
+#menu-button {
+  color: rgb(240, 202, 45);
+  font-size: 1.5rem;
+}
+
+#menu-title {
+  color: rgb(246, 125, 84);
+}
+#menu-button:hover {
+  cursor: pointer;
+}
+
+.menu-links {
+  color: rgb(240, 202, 45);
 }

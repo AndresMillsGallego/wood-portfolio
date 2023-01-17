@@ -1,7 +1,7 @@
 #main-body {
   display: flex;
   flex-direction: column;
-  background-color: rgb(209, 242, 149);
+  background-color: cornsilk;
   padding: 3rem 0;
 }
 
@@ -21,6 +21,7 @@
   width: 30%;
   height: 100%;
   padding: 1rem;
+  overflow: auto;
 }
 
 .main-page-images {
@@ -28,11 +29,4 @@
   height: 100%;
   border: 2px solid #565656;
   box-shadow: 3px 3px 5px 3px;
-}
-
-.divider {
-  width: 75%;
-  margin: 4rem auto;
-  border: 1px solid rgb(246,125,84);
-  border-radius: 10px;
 }
