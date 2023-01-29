@@ -16,5 +16,6 @@
 #socials {
   width: 15%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }

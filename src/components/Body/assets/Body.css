@@ -1,32 +1,22 @@
-#main-body {
-  display: flex;
-  flex-direction: column;
+#main-div {
+  min-height: 100vh;
   background-color: cornsilk;
-  padding: 3rem 0;
+  padding: 2rem;
 }
 
-.splash-images {
-  width: 90%;
+h1 {
+  text-align: center;
+}
+.first-col {
   margin: auto;
-  height: 75vh;
-  display: flex;
-  justify-content: space-around;
-}
-
-.image-description {
-  border: 2px solid #565656;
-  border-radius: 5px;
-  box-shadow: 3px 3px 5px 3px;
-  background-color: #565656c3;
-  width: 30%;
-  height: 100%;
-  padding: 1rem;
-  overflow: auto;
+  margin-bottom: 0;
+  min-height: 100vh;
 }
 
 .main-page-images {
-  width: 60%;
+  width: 100%;
   height: 100%;
+  margin: auto;
   border: 2px solid #565656;
   box-shadow: 3px 3px 5px 3px;
 }

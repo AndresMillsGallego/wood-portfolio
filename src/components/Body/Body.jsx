@@ -1,4 +1,5 @@
 import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
 
 import SpiralStairs from "../../assets/SpiralStairs.jpg";
 import WalnutShelf from "../../assets/WalnutShelf.jpg";
@@ -10,39 +11,57 @@ import "./assets/Body.css";
 
 const Body = () => {
   return (
-    <div id="main-body">
-      <div className="splash-images">
-        <div className="image-description">
-          <TextBody className="image-description" />
-        </div>
-        <img
-          className="main-page-images"
-          src={SpiralStairs}
-          alt="Spiral Stairs Main Image"
-        />
-      </div>
+    <div id="main-div">
+      <h1>My Favorite Projects</h1>
       <Divider />
-      <div className="splash-images">
-        <img
-          className="main-page-images"
-          src={WalnutShelf}
-          alt="Walnut Shelf Main Image"
-        />
-        <div className="image-description">
-          <TextBody className="image-description" />
-        </div>
-      </div>
+      <Row className="rows gy-4">
+        <Col xs={12} md={4} lg={4} className="first-col text-col">
+          <TextBody />
+        </Col>
+        <Col xs={12} md={8} lg={8}>
+          <img
+            className="main-page-images"
+            src={SpiralStairs}
+            alt="Spiral Stairs Main Image"
+          />
+        </Col>
+        <Col lg={12}>
+          <Divider />
+        </Col>
+      </Row>
+      <Row className="rows gy-4">
+        <Col xs={12} md={8} lg={8} className="first-col">
+          <img
+            className="main-page-images"
+            src={WalnutShelf}
+            alt="Walnut Shelf Main Image"
+          />
+        </Col>
+        <Col
+          xs={{ base: 12, order: "first" }}
+          md={4}
+          lg={4}
+          className="text-col"
+        >
+          <TextBody />
+        </Col>
+        <Col lg={{ base: 12, order: "last" }}>
+          <Divider />
+        </Col>
+      </Row>
+      <Row className="rows gy-4">
+        <Col xs={12} md={4} lg={4} className="first-col text-col">
+          <TextBody />
+        </Col>
+        <Col xs={12} md={8} lg={8}>
+          <img
+            className="main-page-images"
+            src={HerringBone}
+            alt="Herringbone Main Image"
+          />
+        </Col>
+      </Row>
       <Divider />
-      <div className="splash-images">
-        <div className="image-description">
-          <TextBody className="image-description" />
-        </div>
-        <img
-          className="main-page-images"
-          src={HerringBone}
-          alt="HerringBone Main Image"
-        />
-      </div>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .routes {
-  height: 100vh;
+  min-height: 100vh;
   background-color: cornsilk;
   text-align: center;
   padding: 2rem 0;
