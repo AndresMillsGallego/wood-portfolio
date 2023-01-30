@@ -30,7 +30,12 @@ const Body = () => {
         </Col>
       </Row>
       <Row className="rows gy-4">
-        <Col xs={12} md={8} lg={8} className="first-col">
+        <Col
+          xs={12}
+          md={8}
+          lg={{ span: 8, order: "first" }}
+          className="first-col"
+        >
           <img
             className="main-page-images"
             src={WalnutShelf}
@@ -38,14 +43,14 @@ const Body = () => {
           />
         </Col>
         <Col
-          xs={{ base: 12, order: "first" }}
+          xs={{ span: 12, order: "first" }}
           md={4}
           lg={4}
           className="text-col"
         >
           <TextBody />
         </Col>
-        <Col lg={{ base: 12, order: "last" }}>
+        <Col lg={{ span: 12, order: "last" }}>
           <Divider />
         </Col>
       </Row>

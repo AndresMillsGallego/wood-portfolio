@@ -7,11 +7,12 @@ import "./assets/Gallery.css";
 
 const Gallery = (props) => {
   const { data } = props;
+  const test = [1, 2];
 
   return (
     <Container id="gallery">
-      {data.map((item) => (
-        <Row xs={1} sm={1} md={2} lg={3} xl={4} className="mb-4 gy-4">
+      {test.map((item) => (
+        <Row xs={1} md={2} lg={3} xl={4} className="mb-5 gy-5 gx-5">
           {data.map((card) => (
             <Col>
               <GalleryCard />

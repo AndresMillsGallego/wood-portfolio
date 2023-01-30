@@ -41,7 +41,9 @@ const LandingPage = () => {
             1000,
             "I am a Carpent-...",
             1000,
-            "I love to build things!",
+            "I....",
+            1000,
+            "I just love to build things ⚒️",
             1000,
             () => {
               setShowButton(true);

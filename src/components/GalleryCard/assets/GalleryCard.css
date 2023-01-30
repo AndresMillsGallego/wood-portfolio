@@ -1,0 +1,24 @@
+.cards {
+  padding: 1rem;
+}
+
+.cards:hover {
+  cursor: pointer;
+}
+
+img {
+  width: 50%;
+}
+
+.modal-body {
+  display: flex;
+  padding: 1rem;
+}
+
+.modal-list {
+  margin-left: 2rem;
+}
+
+.list-item {
+  margin-bottom: 2rem;
+}

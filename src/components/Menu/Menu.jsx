@@ -31,7 +31,12 @@ const Menu = () => {
         <OffcanvasBody>
           <Nav className="flex-column">
             <Nav.Item>
-              <Nav.Link as={Link} to="#" title="About Me">
+              <Nav.Link
+                as={Link}
+                to="/about"
+                title="About Me"
+                onClick={handleShow}
+              >
                 <p className="menu-links">About Me</p>
               </Nav.Link>
             </Nav.Item>
