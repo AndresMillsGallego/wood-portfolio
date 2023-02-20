@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 import SpiralStairs from "../../assets/SpiralStairs.jpg";
 import WalnutShelf from "../../assets/WalnutShelf.jpg";

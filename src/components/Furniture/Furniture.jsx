@@ -1,13 +1,14 @@
 import React from "react";
 
-import LandingPage from "../LandingPage/LandingPage";
+import Gallery from "../Gallery/Gallery";
 
 const Furniture = () => {
+  const data = [1, 2, 3, 4];
   return (
     <div className="routes">
       <h1>Furniture</h1>
 
-      <LandingPage />
+      <Gallery data={data} title="Furniture" />
     </div>
   );
 };
