@@ -11,10 +11,10 @@ const Gallery = (props) => {
 
   return (
     <Container id="gallery">
-      {test.map((item) => (
-        <Row xs={1} md={2} lg={3} xl={4} className="mb-5 gy-5 gx-5">
-          {data.map((card) => (
-            <Col>
+      {test.map((item, index) => (
+        <Row key={index} xs={1} md={2} lg={3} xl={4} className="mb-5 gy-5 gx-5">
+          {data.map((card, index) => (
+            <Col key={index}>
               <GalleryCard title={title} />
             </Col>
           ))}
