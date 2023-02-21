@@ -14,11 +14,11 @@ const Body = () => {
     <div id="main-div">
       <h1>My Favorite Projects</h1>
       <Divider />
-      <Row className="rows gy-4">
-        <Col xs={12} md={4} lg={4} className="first-col text-col">
+      <Row className="rows gy-4 gx-5">
+        <Col xs={12} md={4} lg={4} className="first-col text-col columns">
           <TextBody />
         </Col>
-        <Col xs={12} md={8} lg={8}>
+        <Col xs={12} md={8} lg={8} className="columns">
           <img
             className="main-page-images"
             src={SpiralStairs}
@@ -29,7 +29,7 @@ const Body = () => {
           <Divider />
         </Col>
       </Row>
-      <Row className="rows gy-4">
+      <Row className="rows gy-4 gx-5">
         <Col
           xs={12}
           md={8}
@@ -54,7 +54,7 @@ const Body = () => {
           <Divider />
         </Col>
       </Row>
-      <Row className="rows gy-4">
+      <Row className="rows gy-4 gx-5">
         <Col xs={12} md={4} lg={4} className="first-col text-col">
           <TextBody />
         </Col>
