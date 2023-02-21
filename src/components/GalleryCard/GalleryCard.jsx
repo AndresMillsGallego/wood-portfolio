@@ -6,7 +6,9 @@ import SpiralStairs from "../../assets/SpiralStairs.jpg";
 import "./assets/GalleryCard.css";
 
 const GalleryCard = (props) => {
-  const { title } = props;
+  const { cardInfo } = props;
+
+  const { title, src, description, listInfo } = cardInfo;
 
   const [showModal, setShowModal] = useState(false);
 
@@ -18,13 +20,8 @@ const GalleryCard = (props) => {
     <>
       <Card className="cards" onClick={() => handleClick()} border="info">
         <Card.Header>{title}</Card.Header>
-        <Card.Img variant="top" src={SpiralStairs} />
-        <Card.Body>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-          reprehenderit eius aliquid labore temporibus sint magnam, assumenda
-          provident maiores, accusantium mollitia totam dolor recusandae dolorem
-          perspiciatis architecto commodi animi nostrum.
-        </Card.Body>
+        <Card.Img className="card-images" variant="top" src={src} />
+        <Card.Body>{description}</Card.Body>
       </Card>
 
       <Modal
@@ -39,28 +36,22 @@ const GalleryCard = (props) => {
         <Modal.Body className="modal-body">
           <div id="modal-body">
             <Row xs={1} md={2} lg={2}>
-              <Col>
-                <img src={SpiralStairs} alt="Spiral Stairs" />
+              <Col className="columns">
+                <img src={src} alt="Spiral Stairs" />
               </Col>
-              <Col>
+              <Col className="columns">
                 <ListGroup variant="flush" className="modal-list">
                   <ListGroup.Item className="list-item">
-                    Lorem Ipsum: Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Modi harum soluta doloremque, quos quidem
-                    voluptate natus.
+                    {`Species: ${listInfo.species}`}
                   </ListGroup.Item>
                   <ListGroup.Item className="list-item">
-                    Lorem Ipsum: Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Alias numquam laborum sint cupiditate.
+                    {`Finish: ${listInfo.finish}`}
                   </ListGroup.Item>
                   <ListGroup.Item className="list-item">
-                    Lorem Ipsum: Lorem ipsum dolor, sit amet consectetur
-                    adipisicing elit. Rem reiciendis quam enim mollitia.
+                    {`Location: ${listInfo.location}`}
                   </ListGroup.Item>
                   <ListGroup.Item className="list-item">
-                    Lorem Ipsum: Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Assumenda saepe ullam, ad itaque eligendi
-                    tempora.
+                    {`Additional Info: ${listInfo.additional}`}
                   </ListGroup.Item>
                 </ListGroup>
               </Col>
