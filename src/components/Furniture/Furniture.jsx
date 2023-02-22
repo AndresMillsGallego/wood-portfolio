@@ -8,7 +8,7 @@ const Furniture = () => {
     <div className="routes">
       <h1>Furniture</h1>
 
-      <Gallery data={data} title="Furniture" />
+      {/* <Gallery data={data} title="Furniture" /> */}
     </div>
   );
 };

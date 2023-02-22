@@ -6,57 +6,12 @@ import ScrapedWalnut from "../../../assets/floors/ScrapedWalnut.jpg";
 import QtrWhiteOak from "../../../assets/floors/QtrWhiteOak1.jpg";
 import BasketWeave from "../../../assets/floors/BasketWeave.jpg";
 import WhiteOakWithHerringBone from "../../../assets/floors/WhiteOakWithHerringBone.jpg";
+import FrenchKnot from "../../../assets/floors/FrenchKnot.jpg";
+import LivesawnWhiteOak from "../../../assets/floors/LivesawnWhiteOak.jpg";
+import Hickory from "../../../assets/floors/Hickory.jpg";
+import BlackWalnut from "../../../assets/floors/BlackWalnut.jpg";
 
 const floors = [
-  {
-    title: "Old Fir",
-    src: OldFir_1,
-    description: "This is a very old, old Fir floor.  Huzzah.",
-    listInfo: {
-      species: "Vertical Grain Fir (100 years old)",
-      finish: "3 coats of Swedish finish",
-      location: "Seattle, Wa",
-      additional:
-        "There is nothing quite like old Fir floors.  This look can't be reproduced, you just have to be lucky enough to have them in your home.",
-    },
-  },
-  {
-    title: "Heart Pine",
-    src: HeartPine,
-    description: "This is a beautiful Heart Pine floor.  Huzzah.",
-    listInfo: {
-      species: "Heart Pine",
-      finish: "3 coats of Tung Oil finish",
-      location: "West Seattle, Wa",
-      additional:
-        "The lumber for these floors was pulled out of a river where it sat for decades.  It was then dried out, installed and finished with Tung Oil finish, which is one of the most classic finishes available and has been used for hundreds of years.",
-    },
-  },
-  {
-    title: "Strand Eucalyptus",
-    src: Eucalyptus,
-    description: "This is a pre finished strand Eucalyptus floor.  Huzzah.",
-    listInfo: {
-      species: "Strand Eucalyptus",
-      finish: "Factory finished urethane",
-      location: "Seattle, Wa",
-      additional:
-        "The Eucalyptus wood is compressed down to the size of a railroad tie, then sliced into pieces that become the floor boards.  The process results in an incredibly durable, and beautiful product",
-    },
-  },
-  {
-    title: "Rift and Quartered White Oak",
-    src: QtrWhiteOak,
-    description:
-      "This is a rift and quartered White Oak floor with a custom stain.  Huzzah.",
-    listInfo: {
-      species: "Rift and Quartersawn White Oak",
-      finish: "Custom stain with 3 coats of waterborne finish",
-      location: "Seattle, Wa",
-      additional:
-        "Rift and quartered White Oak is one of the most classic and timeless products for a wood floor.  These floors always look fabulous wether it's 50 years ago, present day, or 50 years into the future.",
-    },
-  },
   {
     title: "Hand Scraped Walnut",
     src: ScrapedWalnut,
@@ -106,6 +61,102 @@ const floors = [
       location: "Seattle, Wa",
       additional:
         "The existing floors here were refinished, but we installed new wood in the entryway.  The owners decided to use a herring bone pattern to accent the space and keep in line with the original design.",
+    },
+  },
+  {
+    title: "French Knot",
+    src: FrenchKnot,
+    description: "This is a French Knot.  Huzzah.",
+    listInfo: {
+      species: "100% Quartersawn White Oak with Bubinga feature",
+      finish: "Custom stain with 3 coats of Tung Oil",
+      location: "Seattle, Wa",
+      additional:
+        "The boards for this herringbone were milled from standard flooring.  The feature strip for the border and french knots was custom milled onsite and fabricated to sit just proud of the White Oak.  The floors were all hand scraped and finished with a stain and Tung Oil finish.",
+    },
+  },
+  {
+    title: "Wide Plank Hickory",
+    src: Hickory,
+    description: "This is a beautiful Hickory floor.  Huzzah.",
+    listInfo: {
+      species: "Select Hickory",
+      finish: "Custom stain with 3 coats of waterborne finish",
+      location: "Bellevue, Wa",
+      additional:
+        "This wide plank solid Hickory floor was installed with fasteners as well as full trowel adhesive.  The stain was custom mixed onsite and all the floors were finished with 3 coats of waterborne finish",
+    },
+  },
+  {
+    title: "Livesawn White Oak",
+    src: LivesawnWhiteOak,
+    description: "This is a beautiful White Oak floor.  Huzzah.",
+    listInfo: {
+      species: "Livesawn Wide Plank White Oak",
+      finish: "Rubio Monocoat fuming with oil",
+      location: "Bainbridge Island, Wa",
+      additional:
+        "These floors were finished using Rubio Monocoat fumed product and a custom mixed Rubio oil finish",
+    },
+  },
+  {
+    title: "Black Walnut",
+    src: BlackWalnut,
+    description: "This is a beautiful Walnut floor.  Huzzah.",
+    listInfo: {
+      species: "American Black Walnut",
+      finish: "Custom stain with 3 coats of Tung Oil finish",
+      location: "Mercer Island, Wa",
+      additional:
+        "These floors were finished 100% by hand using only scrapers and sandpaper.  The stain, and Tung Oil was also applied by hand.",
+    },
+  },
+  {
+    title: "Old VG Fir",
+    src: OldFir_1,
+    description: "This is a very old, old Fir floor.  Huzzah.",
+    listInfo: {
+      species: "Vertical Grain Fir (100 years old)",
+      finish: "3 coats of Swedish finish",
+      location: "Seattle, Wa",
+      additional:
+        "There is nothing quite like old Fir floors.  This look can't be reproduced, you just have to be lucky enough to have them in your home.",
+    },
+  },
+  {
+    title: "Douglas Fir",
+    src: HeartPine,
+    description: "This is a beautiful Fir floor.  Huzzah.",
+    listInfo: {
+      species: "Vertical Grain Fir",
+      finish: "3 coats of waterborne finish",
+      location: "Bainbridge Island, Wa",
+      additional:
+        "The lumber for these floors came from trees that were felled onsite.",
+    },
+  },
+  {
+    title: "Strand Eucalyptus",
+    src: Eucalyptus,
+    description: "This is a pre finished strand Eucalyptus floor.  Huzzah.",
+    listInfo: {
+      species: "Strand Eucalyptus",
+      finish: "Factory finished urethane",
+      location: "Seattle, Wa",
+      additional:
+        "The Eucalyptus wood is compressed down to the size of a railroad tie, then sliced into pieces that become the floor boards.  The process results in an incredibly durable, and beautiful product",
+    },
+  },
+  {
+    title: "Rift and Quartered White Oak",
+    src: QtrWhiteOak,
+    description: "This is a rift and quartered White Oak floor.  Huzzah.",
+    listInfo: {
+      species: "Rift and Quartersawn White Oak",
+      finish: "Rubio Monocoat",
+      location: "Seattle, Wa",
+      additional:
+        "Rift and quartered White Oak is one of the most classic and timeless products for a wood floor.  These floors always look fabulous wether it's 50 years ago, present day, or 50 years into the future.",
     },
   },
 ];

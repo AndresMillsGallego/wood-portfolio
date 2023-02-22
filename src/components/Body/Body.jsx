@@ -21,8 +21,9 @@ const Body = () => {
         <Col xs={12} md={8} lg={8} className="columns">
           <img
             className="main-page-images"
-            src={SpiralStairs}
+            src={HerringBone}
             alt="Spiral Stairs Main Image"
+            loading="lazy"
           />
         </Col>
         <Col lg={12}>
@@ -38,8 +39,9 @@ const Body = () => {
         >
           <img
             className="main-page-images"
-            src={WalnutShelf}
+            src={SpiralStairs}
             alt="Walnut Shelf Main Image"
+            loading="lazy"
           />
         </Col>
         <Col
@@ -61,8 +63,9 @@ const Body = () => {
         <Col xs={12} md={8} lg={8}>
           <img
             className="main-page-images"
-            src={HerringBone}
+            src={WalnutShelf}
             alt="Herringbone Main Image"
+            loading="lazy"
           />
         </Col>
       </Row>
