@@ -1,4 +1,4 @@
-import OldFir_1 from "../../../assets/floors/OldFir1.jpg";
+import FirFloors from "../../../assets/floors/FirFloors.jpg";
 import CharacterWhiteOak from "../../../assets/floors/CharacterWhiteOak.jpg";
 import Eucalyptus from "../../../assets/floors/Eucalyptus.jpg";
 import HeartPine from "../../../assets/floors/HeartPine.jpg";
@@ -13,16 +13,15 @@ import BlackWalnut from "../../../assets/floors/BlackWalnut.jpg";
 
 const floors = [
   {
-    title: "Hand Scraped Walnut",
-    src: ScrapedWalnut,
-    description:
-      "This is a 6 inch American Black Walnut floor.  It has been hand scraped and finished with a custom stain and a Tung Oil finish. Huzzah.",
+    title: "Old VG Fir",
+    src: FirFloors,
+    description: "This is a very old, old Fir floor.  Huzzah.",
     listInfo: {
-      species: "American Black Walnut",
-      finish: "Custom stain with 3 coats of Tung Oil finish",
-      location: "Medina, Wa",
+      species: "Vertical Grain Fir (100 years old)",
+      finish: "3 coats of Swedish finish",
+      location: "Seattle, Wa",
       additional:
-        "These floors were finished using the same methods that have been used for centuries.  The entire process was done by hand, the scraping, sanding and application of the finish.  This produces a unique look that can only be produced by staying true to the original method.",
+        "There is nothing quite like old Fir floors.  This look can't be reproduced, you just have to be lucky enough to have them in your home.",
     },
   },
   {
@@ -76,15 +75,16 @@ const floors = [
     },
   },
   {
-    title: "Wide Plank Hickory",
-    src: Hickory,
-    description: "This is a beautiful Hickory floor.  Huzzah.",
+    title: "Hand Scraped Walnut",
+    src: ScrapedWalnut,
+    description:
+      "This is a 6 inch American Black Walnut floor.  It has been hand scraped and finished with a custom stain and a Tung Oil finish. Huzzah.",
     listInfo: {
-      species: "Select Hickory",
-      finish: "Custom stain with 3 coats of waterborne finish",
-      location: "Bellevue, Wa",
+      species: "American Black Walnut",
+      finish: "Custom stain with 3 coats of Tung Oil finish",
+      location: "Medina, Wa",
       additional:
-        "This wide plank solid Hickory floor was installed with fasteners as well as full trowel adhesive.  The stain was custom mixed onsite and all the floors were finished with 3 coats of waterborne finish",
+        "These floors were finished using the same methods that have been used for centuries.  The entire process was done by hand, the scraping, sanding and application of the finish.  This produces a unique look that can only be produced by staying true to the original method.",
     },
   },
   {
@@ -112,15 +112,15 @@ const floors = [
     },
   },
   {
-    title: "Old VG Fir",
-    src: OldFir_1,
-    description: "This is a very old, old Fir floor.  Huzzah.",
+    title: "Wide Plank Hickory",
+    src: Hickory,
+    description: "This is a beautiful Hickory floor.  Huzzah.",
     listInfo: {
-      species: "Vertical Grain Fir (100 years old)",
-      finish: "3 coats of Swedish finish",
-      location: "Seattle, Wa",
+      species: "Select Hickory",
+      finish: "Custom stain with 3 coats of waterborne finish",
+      location: "Bellevue, Wa",
       additional:
-        "There is nothing quite like old Fir floors.  This look can't be reproduced, you just have to be lucky enough to have them in your home.",
+        "This wide plank solid Hickory floor was installed with fasteners as well as full trowel adhesive.  The stain was custom mixed onsite and all the floors were finished with 3 coats of waterborne finish",
     },
   },
   {
