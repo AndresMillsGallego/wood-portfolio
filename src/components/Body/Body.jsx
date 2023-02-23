@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import SpiralStairs from "../../assets/SpiralStairs.jpg";
 import WalnutShelf from "../../assets/WalnutShelf.jpg";
@@ -7,6 +8,7 @@ import HerringBone from "../../assets/HerringBone.jpg";
 
 import TextBody from "../TextBody/TextBody";
 import Divider from "../Divider/Divider";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import "./assets/Body.css";
 
 const Body = () => {
@@ -19,11 +21,12 @@ const Body = () => {
           <TextBody />
         </Col>
         <Col xs={12} md={8} lg={8} className="columns">
-          <img
+          <LazyLoadImage
             className="main-page-images"
             src={HerringBone}
+            width="100%"
             alt="Spiral Stairs Main Image"
-            loading="lazy"
+            effect="blur"
           />
         </Col>
         <Col lg={12}>
@@ -37,11 +40,12 @@ const Body = () => {
           lg={{ span: 8, order: "first" }}
           className="first-col"
         >
-          <img
+          <LazyLoadImage
             className="main-page-images"
             src={SpiralStairs}
+            width="100%"
             alt="Walnut Shelf Main Image"
-            loading="lazy"
+            effect="blur"
           />
         </Col>
         <Col
@@ -61,11 +65,12 @@ const Body = () => {
           <TextBody />
         </Col>
         <Col xs={12} md={8} lg={8}>
-          <img
+          <LazyLoadImage
             className="main-page-images"
             src={WalnutShelf}
+            width="100%"
             alt="Herringbone Main Image"
-            loading="lazy"
+            effect="blur"
           />
         </Col>
       </Row>

@@ -1,8 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import { Card, Modal, ListGroup, Row, Col } from "react-bootstrap";
-import SpiralStairs from "../../assets/SpiralStairs.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
+import "react-lazy-load-image-component/src/effects/blur.css";
 import "./assets/GalleryCard.css";
 
 const GalleryCard = (props) => {
@@ -21,9 +22,11 @@ const GalleryCard = (props) => {
       <Card className="cards" onClick={() => handleClick()} border="info">
         <Card.Header>{title}</Card.Header>
         <Card.Img
+          as={LazyLoadImage}
           className="card-images"
           variant="top"
           src={src}
+          effect="blur"
           loading="lazy"
         />
         <Card.Body>{description}</Card.Body>

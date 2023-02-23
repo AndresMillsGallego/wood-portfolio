@@ -1,0 +1,15 @@
+#connect-div {
+  margin-top: 2rem;
+}
+
+.tab-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 1rem 0;
+  margin-top: 2rem;
+}
+
+video {
+  width: 100%;
+}

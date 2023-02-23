@@ -1,7 +1,7 @@
 import FirFloors from "../../../assets/floors/FirFloors.jpg";
 import CharacterWhiteOak from "../../../assets/floors/CharacterWhiteOak.jpg";
 import Eucalyptus from "../../../assets/floors/Eucalyptus.jpg";
-import HeartPine from "../../../assets/floors/HeartPine.jpg";
+import StainedRedOak from "../../../assets/floors/StainedRedOak.jpg";
 import ScrapedWalnut from "../../../assets/floors/ScrapedWalnut.jpg";
 import QtrWhiteOak from "../../../assets/floors/QtrWhiteOak1.jpg";
 import BasketWeave from "../../../assets/floors/BasketWeave.jpg";
@@ -124,15 +124,15 @@ const floors = [
     },
   },
   {
-    title: "Douglas Fir",
-    src: HeartPine,
-    description: "This is a beautiful Fir floor.  Huzzah.",
+    title: "Red Oak With Stain",
+    src: StainedRedOak,
+    description: "This is a beautiful Stained Red Oak floor.  Huzzah.",
     listInfo: {
-      species: "Vertical Grain Fir",
-      finish: "3 coats of waterborne finish",
-      location: "Bainbridge Island, Wa",
+      species: "Select Red Oak",
+      finish: "Custom stain with 3 coats of waterborne finish",
+      location: "Seattle, Wa",
       additional:
-        "The lumber for these floors came from trees that were felled onsite.",
+        "Classic and timeless, Select Red Oak strip flooring with a warm brown stain and clear waterborne finish.",
     },
   },
   {

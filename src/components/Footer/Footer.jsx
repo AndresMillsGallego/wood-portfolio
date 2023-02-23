@@ -17,6 +17,7 @@ const Footer = () => {
               <Nav.Link
                 href="https://github.com/AndresMillsGallego"
                 title="My Github"
+                target="_blank"
               >
                 <FontAwesomeIcon icon={faGithub} />
               </Nav.Link>
@@ -25,6 +26,7 @@ const Footer = () => {
               <Nav.Link
                 href="https://www.linkedin.com/in/andres-mills-gallego/"
                 title="My LinkedIn"
+                target="_blank"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </Nav.Link>
