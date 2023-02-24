@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Card, Modal, ListGroup, Row, Col } from "react-bootstrap";
+import { Card, Modal, ListGroup, Row, Col, Button } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -19,17 +19,18 @@ const GalleryCard = (props) => {
 
   return (
     <>
-      <Card className="cards" onClick={() => handleClick()} border="info">
-        <Card.Header>{title}</Card.Header>
+      <Card className="cards" border="primary">
         <Card.Img
           as={LazyLoadImage}
           className="card-images"
           variant="top"
           src={src}
           effect="blur"
-          loading="lazy"
         />
         <Card.Body>{description}</Card.Body>
+        <Button className="d-grid m-2" variant="warning" onClick={handleClick}>
+          See More
+        </Button>
       </Card>
 
       <Modal

@@ -31,7 +31,7 @@ const AboutMe = () => {
   return (
     <div className="routes">
       <div id="aboutMe-div">
-        <Row xs={1} sm={2}>
+        <Row xs={1} sm={1} md={2}>
           <Col>
             <Fade in={showMe}>
               <Image id="me" src={Me} alt="Andres Bio" roundedCircle />

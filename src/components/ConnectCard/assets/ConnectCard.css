@@ -2,14 +2,21 @@
   margin-top: 2rem;
 }
 
-.tab-div {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  margin: 1rem 0;
-  margin-top: 2rem;
+.contact-links {
+  font-size: 1.5rem;
 }
 
-video {
-  width: 100%;
+#andres {
+  width: 75%;
+  margin: 1rem 3.25rem;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+#connect-divider {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  height: 2px;
+  background-color: rgb(246, 125, 84);
 }
