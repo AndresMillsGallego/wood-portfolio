@@ -12,6 +12,10 @@ img {
   height: 20rem;
 }
 
+.card-images:hover {
+  cursor: pointer;
+}
+
 .btn,
 .btn-link {
   color: rgb(20, 174, 219) !important;

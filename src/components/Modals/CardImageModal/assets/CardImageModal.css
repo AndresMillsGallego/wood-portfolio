@@ -1,0 +1,22 @@
+.modal-image-large {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100%;
+}
+
+.image-modal-width {
+  min-width: 80vw;
+}
+
+#image-modal .modal-header {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  #image-modal {
+    margin-top: 40%;
+  }
+  .modal-image-large {
+    height: 60vh;
+  }
+}

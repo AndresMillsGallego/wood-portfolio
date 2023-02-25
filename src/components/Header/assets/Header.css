@@ -18,6 +18,10 @@
   justify-content: space-evenly;
 }
 
+#current-path {
+  border-bottom: 2px double;
+  color: rgb(20, 174, 219);
+}
 #nav-dropdown {
   display: flex;
   justify-content: end;

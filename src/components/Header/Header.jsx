@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Nav, Container, Row, Col } from "react-bootstrap";
+import { Link, useLocation } from "react-router-dom";
+import { Nav, Row, Col } from "react-bootstrap";
 import "./assets/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHammer } from "@fortawesome/free-solid-svg-icons";
@@ -8,6 +8,9 @@ import { faHammer } from "@fortawesome/free-solid-svg-icons";
 import Menu from "../Menu/Menu";
 
 const Header = () => {
+  const currentLocation = useLocation();
+  const { pathname } = currentLocation;
+
   return (
     <div id="header-container">
       <Row xs={1} md={3} id="header-div" className="gy-3">
@@ -28,22 +31,42 @@ const Header = () => {
         <Col>
           <div id="links">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" title="Home">
+              <Nav.Link
+                as={Link}
+                to="/"
+                title="Home"
+                id={pathname === "/" ? "current-path" : ""}
+              >
                 <p className="link-text">Home</p>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link as={Link} to="/floors" title="Floors">
+              <Nav.Link
+                as={Link}
+                to="/floors"
+                title="Floors"
+                id={pathname === "/floors" ? "current-path" : ""}
+              >
                 <p className="link-text">Floors</p>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link as={Link} to="/stairs" title="Stairs">
+              <Nav.Link
+                as={Link}
+                to="/stairs"
+                title="Stairs"
+                id={pathname === "/stairs" ? "current-path" : ""}
+              >
                 <p className="link-text">Stairs</p>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link as={Link} to="furniture" title="Furniture">
+              <Nav.Link
+                as={Link}
+                to="furniture"
+                title="Furniture"
+                id={pathname === "/furniture" ? "current-path" : ""}
+              >
                 <p className="link-text">Furniture</p>
               </Nav.Link>
             </Nav.Item>
