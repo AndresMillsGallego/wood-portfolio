@@ -13,7 +13,7 @@ const Header = () => {
       <Row xs={1} md={3} id="header-div" className="gy-3">
         <Col>
           <Nav.Item>
-            <Nav.Link as={Link} to="/">
+            <Nav.Link as={Link} to="/" title="Home">
               <div id="header-name">
                 <FontAwesomeIcon icon={faHammer} id="hammer" />
                 <div id="vertical-divider"></div>

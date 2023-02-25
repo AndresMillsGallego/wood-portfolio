@@ -7,7 +7,7 @@ import furniture from "./__data__/furniture";
 const Furniture = () => {
   return (
     <div className="routes">
-      <h1>Furniture</h1>
+      <h1 className="routes-h1">Furniture</h1>
 
       <Gallery data={furniture} />
     </div>

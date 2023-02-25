@@ -34,6 +34,7 @@ const Menu = () => {
         id="menu-button"
         onClick={handleShowMenu}
         icon={faBars}
+        title="Menu"
       />
       <Offcanvas
         show={showMenu}

@@ -9,7 +9,7 @@ const Floors = () => {
   console.log(floors);
   return (
     <div className="routes">
-      <h1>Hardwood Floors</h1>
+      <h1 className="routes-h1">Hardwood Floors</h1>
       <Gallery data={floors} />
     </div>
   );

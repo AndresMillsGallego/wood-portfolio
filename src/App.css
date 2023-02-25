@@ -1,6 +1,30 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .routes {
   min-height: 100vh;
-  background-color: cornsilk;
+  background-color: gainsboro;
   text-align: center;
   padding: 2rem 0;
+}
+
+.routes-h1,
+.main-h1 {
+  width: 45%;
+  margin: auto;
+  border-bottom: 2px solid;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.main-h1 {
+  width: 65%;
+}
+
+@media (max-width: 600px) {
+  .routes-h1,
+  .main-h1 {
+    width: 90%;
+  }
 }
