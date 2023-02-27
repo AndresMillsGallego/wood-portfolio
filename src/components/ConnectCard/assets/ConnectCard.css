@@ -20,3 +20,18 @@
   height: 2px;
   background-color: rgb(246, 125, 84);
 }
+
+#connect-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.connect-icons {
+  color: rgb(246, 125, 84);
+  font-size: 1.5rem;
+}
+
+#colombia-pin {
+  width: 2.25rem;
+}

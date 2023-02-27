@@ -2,13 +2,18 @@ import React from "react";
 
 import { Card, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faHammer,
+  faCode,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import MirrorMe from "../../assets/MirrorMe.jpg";
+import Colombia from "../../assets/Colombia.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -19,6 +24,11 @@ const ConnectCard = () => {
   return (
     <div id="connect-div">
       <Card bg="dark" text="white">
+        <Card.Header id="connect-header">
+          <FontAwesomeIcon icon={faHammer} className="connect-icons" />
+          <img id="colombia-pin" src={Colombia} />
+          <FontAwesomeIcon icon={faCode} className="connect-icons" />
+        </Card.Header>
         <Card.Img
           id="andres"
           as={LazyLoadImage}
@@ -28,7 +38,7 @@ const ConnectCard = () => {
         />
         <Card.Text>Andres</Card.Text>
         <div id="connect-divider"></div>
-        <Card.Text>Carpenter / Software Engineer / Builder</Card.Text>
+        <Card.Text>Carpenter / Software Engineer / Builds Stuff</Card.Text>
         <Card.Body>
           <Nav fill>
             <Nav.Item className="contact-links">

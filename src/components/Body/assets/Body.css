@@ -9,6 +9,7 @@ h1 {
 }
 
 .lazyImg-div {
+  width: 100%;
   border: 2px solid #565656;
   border-radius: 3px;
   box-shadow: 3px 3px 5px 3px;

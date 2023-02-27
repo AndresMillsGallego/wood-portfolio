@@ -13,7 +13,7 @@ img {
 }
 
 .card-images:hover {
-  cursor: pointer;
+  cursor: zoom-in;
 }
 
 .btn,
