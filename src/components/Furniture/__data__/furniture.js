@@ -19,7 +19,7 @@ const furniture = [
   {
     title: "Mid Century Modern",
     src: EndTables,
-    description: "These are lovely end tables.  Huzzah.",
+    description: "Mid Century Modern",
     listInfo: {
       species: "Select White Oak",
       finish: "Rubio Monocoat Pure",
@@ -31,9 +31,9 @@ const furniture = [
   {
     title: "M-I-C-K-E-Y",
     src: Mickey,
-    description: "This is a beautiful Shelf.  Huzzah.",
+    description: "Jatoba Display Shelf",
     listInfo: {
-      species: "Jatoba / Brazilian Cherry",
+      species: "Jatoba / Brazilian Cherry w/Poplar",
       finish: "Rubio Monocoat Charcoal",
       location: "Seattle, Wa",
       additional:
@@ -43,7 +43,7 @@ const furniture = [
   {
     title: "Dining Table",
     src: WalnutTable,
-    description: "This is a beautiful expandable dining table.  Huzzah.",
+    description: "Craftsman Style Dining Table",
     listInfo: {
       species: "American Black Walnut",
       finish: "3 coats of Tung Oil finish",
@@ -55,7 +55,7 @@ const furniture = [
   {
     title: "What's This!",
     src: NightmareHill,
-    description: "This is a unique and lovely wall mounted shelf.  Huzzah.",
+    description: "Wall Display Shelf w/Bent Lamination",
     listInfo: {
       species: "A bit of everything",
       finish: "Rubio Monocoat Pure",
@@ -67,8 +67,7 @@ const furniture = [
   {
     title: "Coffee Shop",
     src: TheStation,
-    description:
-      "This is a beautiful cabinet found in a local coffee shop.  Huzzah.",
+    description: "Coffee Shop Counter",
     listInfo: {
       species: "Reclaimed wood - mixed species",
       finish: "Rubio Monocoat Pure",
@@ -80,7 +79,7 @@ const furniture = [
   {
     title: "When You Wish...",
     src: Castle,
-    description: "This is a beautiful Castle.  Huzzah.",
+    description: "Pop Culture Display Shelf",
     listInfo: {
       species: "Quartersawn Khaya",
       finish: "Rubio Monocoat Black",
@@ -92,7 +91,7 @@ const furniture = [
   {
     title: "Humidor",
     src: Humidor,
-    description: "This is a beautiful walnut humidor.  Huzzah.",
+    description: "Classic Humidor",
     listInfo: {
       species: "American Black Walnut",
       finish: "3 coats of Tung Oil finish",
@@ -104,7 +103,7 @@ const furniture = [
   {
     title: "Corner Hutch",
     src: Hutch,
-    description: "This is a beautiful Hutch.  Huzzah.",
+    description: "Corner Hutch",
     listInfo: {
       species: "Select White Oak",
       finish: "Rubio Monocoat Pure",
@@ -116,7 +115,7 @@ const furniture = [
   {
     title: "Bakery Table",
     src: UmamiTable,
-    description: "This is a beautiful bakery table.  Huzzah.",
+    description: "Custom Bakery Prep Table",
     listInfo: {
       species: "Maple, Walnut, Padouk",
       finish: "Rubio Monocoat Pure",
@@ -128,7 +127,7 @@ const furniture = [
   {
     title: "Treasure Box",
     src: WalnutBox,
-    description: "This is a beautiful treasure box.  Huzzah.",
+    description: "Box For Treasures",
     listInfo: {
       species: "American Black Walnut and Curly Western Maple",
       finish: "3 coats of Tung Oil finish",
@@ -140,7 +139,7 @@ const furniture = [
   {
     title: "Welcome, Foolish Mortals",
     src: HauntedMansion,
-    description: "This is a beautiful, yet scary shelf.  Huzzah.",
+    description: "Scaled Model Display Shelf",
     listInfo: {
       species: "Select Red Oak",
       finish: "Rubio Monocoat Black",
@@ -152,7 +151,7 @@ const furniture = [
   {
     title: "Shelf With Drawers",
     src: RobloxShelf,
-    description: "This is a beautiful shelf with drawers.  Huzzah.",
+    description: "Custom Shelf w/Drawers",
     listInfo: {
       species: "Select White Oak",
       finish: "Rubio Monocoat Pure",
@@ -164,7 +163,7 @@ const furniture = [
   {
     title: "Coffee Shop Tables",
     src: StationTables,
-    description: "This is a beautiful set of coffee shop tables.  Huzzah.",
+    description: "Industrial Coffee Tables",
     listInfo: {
       species: "Reclaimed wood - mixed species",
       finish: "Rubio Monocoat Pure",
@@ -176,7 +175,7 @@ const furniture = [
   {
     title: "Inlaid Dovetails",
     src: Dovetail,
-    description: "This is a beautiful set of inlaid dovetails.  Huzzah.",
+    description: "Inlaid Dovetail Drawer",
     listInfo: {
       species: "Ebony and Quartered Khaya",
       finish: "Custom stain with 3 coats of Tung Oil finish",
@@ -188,7 +187,7 @@ const furniture = [
   {
     title: "Display Shelf",
     src: WalnutShelf,
-    description: "This is a beautiful display shelf.  Huzzah.",
+    description: "Walnut Craftsman Style Shelf",
     listInfo: {
       species: "American Black Walnut",
       finish: "Rubio Monocoat Pure",
@@ -200,7 +199,7 @@ const furniture = [
   {
     title: "Built In Closet",
     src: Closet,
-    description: "This is a beautiful built in closet.  Huzzah.",
+    description: "Custom Built In Closet",
     listInfo: {
       species: "Select White Oak",
       finish: "Rubio Monocoat Pure",

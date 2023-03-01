@@ -15,7 +15,7 @@ const floors = [
   {
     title: "Old VG Fir",
     src: FirFloors,
-    description: "This is a very old, old Fir floor.  Huzzah.",
+    description: "100+ Year Old Vertical Grain Fir",
     listInfo: {
       species: "Vertical Grain Fir (100 years old)",
       finish: "3 coats of Swedish finish",
@@ -27,7 +27,7 @@ const floors = [
   {
     title: "Character Grade White Oak",
     src: CharacterWhiteOak,
-    description: "This is a Character grade White Oak floor.  Huzzah.",
+    description: "Character Grade Plank White Oak",
     listInfo: {
       species: "Character Grade White Oak",
       finish: "Factory finished urethane",
@@ -39,8 +39,7 @@ const floors = [
   {
     title: "Basket Weave",
     src: BasketWeave,
-    description:
-      "This is a Select Red Oak floor finished with a custom stain.  The boards were installed in the entry in a basket weave pattern and inset with 12x12 limestone tiles. Huzzah.",
+    description: "Select Red Oak Basketweave w/Limestone",
     listInfo: {
       species: "Select Red Oak with natural limestone",
       finish: "Custom stain with 3 coats of waterborne finish",
@@ -52,8 +51,7 @@ const floors = [
   {
     title: "Select White Oak with HerringBone",
     src: WhiteOakWithHerringBone,
-    description:
-      "This is a Select White Oak floor with a custom grey stain.  The entry was installed using a herring bone pattern.  Huzzah.",
+    description: "Select White Oak w/Herringbone Pattern",
     listInfo: {
       species: "Select White Oak",
       finish: "Custom stain with 3 coats of waterborne finish",
@@ -65,7 +63,7 @@ const floors = [
   {
     title: "French Knot",
     src: FrenchKnot,
-    description: "This is a French Knot.  Huzzah.",
+    description: "100% Quartersawn White Oak",
     listInfo: {
       species: "100% Quartersawn White Oak with Bubinga feature",
       finish: "Custom stain with 3 coats of Tung Oil",
@@ -77,8 +75,7 @@ const floors = [
   {
     title: "Hand Scraped Walnut",
     src: ScrapedWalnut,
-    description:
-      "This is a 6 inch American Black Walnut floor.  It has been hand scraped and finished with a custom stain and a Tung Oil finish. Huzzah.",
+    description: "American Black Walnut",
     listInfo: {
       species: "American Black Walnut",
       finish: "Custom stain with 3 coats of Tung Oil finish",
@@ -90,7 +87,7 @@ const floors = [
   {
     title: "Livesawn White Oak",
     src: LivesawnWhiteOak,
-    description: "This is a beautiful White Oak floor.  Huzzah.",
+    description: "Livesawn Plank White Oak",
     listInfo: {
       species: "Livesawn Wide Plank White Oak",
       finish: "Rubio Monocoat fuming with oil",
@@ -102,7 +99,7 @@ const floors = [
   {
     title: "Black Walnut",
     src: BlackWalnut,
-    description: "This is a beautiful Walnut floor.  Huzzah.",
+    description: "American Black Walnut",
     listInfo: {
       species: "American Black Walnut",
       finish: "Custom stain with 3 coats of Tung Oil finish",
@@ -114,7 +111,7 @@ const floors = [
   {
     title: "Wide Plank Hickory",
     src: Hickory,
-    description: "This is a beautiful Hickory floor.  Huzzah.",
+    description: "Plank Select Hickory",
     listInfo: {
       species: "Select Hickory",
       finish: "Custom stain with 3 coats of waterborne finish",
@@ -126,7 +123,7 @@ const floors = [
   {
     title: "Red Oak With Stain",
     src: StainedRedOak,
-    description: "This is a beautiful Stained Red Oak floor.  Huzzah.",
+    description: "Classic Select Red Oak",
     listInfo: {
       species: "Select Red Oak",
       finish: "Custom stain with 3 coats of waterborne finish",
@@ -138,7 +135,7 @@ const floors = [
   {
     title: "Strand Eucalyptus",
     src: Eucalyptus,
-    description: "This is a pre finished strand Eucalyptus floor.  Huzzah.",
+    description: "Strand Eucalyptus",
     listInfo: {
       species: "Strand Eucalyptus",
       finish: "Factory finished urethane",
@@ -150,7 +147,7 @@ const floors = [
   {
     title: "Rift and Quartered White Oak",
     src: QtrWhiteOak,
-    description: "This is a rift and quartered White Oak floor.  Huzzah.",
+    description: "Select Rift & Quartered White Oak",
     listInfo: {
       species: "Rift and Quartersawn White Oak",
       finish: "Rubio Monocoat",

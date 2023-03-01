@@ -11,7 +11,7 @@ const stairs = [
   {
     title: "Spiral Staircase",
     src: SpiralStairs,
-    description: "This is a spiral staircase built in Black Walnut. Huzzah.",
+    description: "Spiral Staircase",
     listInfo: {
       species: "American Black Walnut",
       finish: "3 coats of Swedish finish",
@@ -23,7 +23,7 @@ const stairs = [
   {
     title: "Walnut with White Oak",
     src: WalnutRail,
-    description: "This is a stair case in White Oak and Black Walnut. Huzzah.",
+    description: "#1 Common White Oak w/Walnut",
     listInfo: {
       species: "American Black Walnut and Select White Oak",
       finish: "Rubio Monocoat",
@@ -35,8 +35,7 @@ const stairs = [
   {
     title: "Old mixed with New",
     src: ReclaimedRail,
-    description:
-      "This is a new White Oak stair system mixed with reclaimed rail parts. Huzzah.",
+    description: "Select White Oak w/Reclaimed Mahogany",
     listInfo: {
       species: "White Oak and Mahogany",
       finish: "Custom stain with 3 coats of waterborne finish",
@@ -48,7 +47,7 @@ const stairs = [
   {
     title: "Modern Bamboo",
     src: BambooStairs,
-    description: "This is a Natural Bamboo stair case. Huzzah.",
+    description: "Modern Vertical Grain Bamboo",
     listInfo: {
       species: "Vertical Natural Bamboo",
       finish: "3 coats of waterborne finish",
@@ -60,7 +59,7 @@ const stairs = [
   {
     title: "Hickory and Fir",
     src: HickoryStairs,
-    description: "This is a new Hickory stair case. Huzzah.",
+    description: "Select Hickory w/Vertical Grain Fir",
     listInfo: {
       species: "Hickory and Vertical Grain Fir",
       finish:
@@ -73,7 +72,7 @@ const stairs = [
   {
     title: "A Place For Your Shoes",
     src: StairsForShoes,
-    description: "This is a modern White Oak staircase. Huzzah.",
+    description: "Square Edge Rift & Quartered White Oak",
     listInfo: {
       species: "Rift and Quartered White Oak.",
       finish: "Raw wood (later finished with waterborne finish)",
@@ -85,8 +84,7 @@ const stairs = [
   {
     title: "Pie Treads",
     src: PieTreads,
-    description:
-      "This is a new White Oak staircase with pie shaped treads. Huzzah.",
+    description: "Pie Stair Treads",
     listInfo: {
       species: "White Oak and paint grade",
       finish: "Custom stain with 3 coats of clear waterborne finish",
@@ -98,7 +96,7 @@ const stairs = [
   {
     title: "A Classic Design",
     src: SquareRail,
-    description: "This is a new Red Oak staircase. Huzzah.",
+    description: "Classic Select Red Oak",
     listInfo: {
       species: "Select Red Oak",
       finish: "Custom stain with 3 coats of clear waterborne finish",
