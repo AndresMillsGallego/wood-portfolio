@@ -20,15 +20,15 @@ const AboutMe = () => {
     }, 500);
     setTimeout(() => {
       setShowName(true);
-    }, 2000);
+    }, 1500);
 
     setTimeout(() => {
       setShowBuild(true);
-    }, 3500);
+    }, 2500);
 
     setTimeout(() => {
       setShowBio(true);
-    }, 5000);
+    }, 4000);
   }, []);
 
   return (

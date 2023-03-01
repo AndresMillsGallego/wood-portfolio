@@ -54,4 +54,9 @@
   #bio-name {
     margin-top: 1rem;
   }
+
+  .bio-paragraph {
+    letter-spacing: 0px;
+    text-align: center;
+  }
 }

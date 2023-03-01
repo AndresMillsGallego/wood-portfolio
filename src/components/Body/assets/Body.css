@@ -56,7 +56,7 @@
   border: 2px solid #565656;
   border-radius: 3px;
   box-shadow: 3px 3px 5px 3px;
-  width: 75%;
+  width: 85%;
 }
 
 #secondary-image-div {
@@ -71,6 +71,7 @@
   border-bottom: 1px double;
   height: 100%;
 }
+
 .columns {
   display: flex;
   flex-direction: column;
@@ -79,16 +80,12 @@
 
 .main-page-images {
   width: 100%;
-  height: 30rem;
+  height: 27.5rem;
 }
 
 @media (min-width: 700px) and (max-width: 1100px) {
   .main-page-images {
-    height: 20rem;
-  }
-
-  .lazyImg-secondary-div {
-    width: 75%;
+    height: 17.5rem;
   }
 
   .secondary-image-header {
@@ -107,7 +104,7 @@
     width: 65%;
   }
   .main-page-images {
-    height: 15rem;
+    height: 20rem;
   }
 
   .secondary-image-header {
@@ -118,7 +115,7 @@
     width: 100%;
   }
   #main-page-intro p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     letter-spacing: 0;
   }
 

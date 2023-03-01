@@ -17,7 +17,7 @@ import Closet from "../../../assets/furniture/Closet.jpg";
 
 const furniture = [
   {
-    title: "Mid Century Modern",
+    title: "Mid Century Modern End Tables",
     src: EndTables,
     description: "Mid Century Modern",
     listInfo: {
@@ -31,7 +31,7 @@ const furniture = [
   {
     title: "M-I-C-K-E-Y",
     src: Mickey,
-    description: "Jatoba Display Shelf",
+    description: "Brazilian Cherry Display Shelf",
     listInfo: {
       species: "Jatoba / Brazilian Cherry w/Poplar",
       finish: "Rubio Monocoat Charcoal",
@@ -41,7 +41,7 @@ const furniture = [
     },
   },
   {
-    title: "Dining Table",
+    title: "Craftsman Style Walnut Dining Table",
     src: WalnutTable,
     description: "Craftsman Style Dining Table",
     listInfo: {
@@ -55,7 +55,7 @@ const furniture = [
   {
     title: "What's This!",
     src: NightmareHill,
-    description: "Wall Display Shelf w/Bent Lamination",
+    description: "Bent Lamination Wall Shelf",
     listInfo: {
       species: "A bit of everything",
       finish: "Rubio Monocoat Pure",
@@ -65,7 +65,7 @@ const furniture = [
     },
   },
   {
-    title: "Coffee Shop",
+    title: "Coffee Shop Counter",
     src: TheStation,
     description: "Coffee Shop Counter",
     listInfo: {
@@ -89,7 +89,7 @@ const furniture = [
     },
   },
   {
-    title: "Humidor",
+    title: "Classic Humidor",
     src: Humidor,
     description: "Classic Humidor",
     listInfo: {
@@ -113,7 +113,7 @@ const furniture = [
     },
   },
   {
-    title: "Bakery Table",
+    title: "Bakery Prep Table",
     src: UmamiTable,
     description: "Custom Bakery Prep Table",
     listInfo: {
@@ -125,7 +125,7 @@ const furniture = [
     },
   },
   {
-    title: "Treasure Box",
+    title: "Custom Treasure Box",
     src: WalnutBox,
     description: "Box For Treasures",
     listInfo: {
@@ -149,7 +149,7 @@ const furniture = [
     },
   },
   {
-    title: "Shelf With Drawers",
+    title: "Display Shelf With Drawers",
     src: RobloxShelf,
     description: "Custom Shelf w/Drawers",
     listInfo: {
@@ -161,7 +161,7 @@ const furniture = [
     },
   },
   {
-    title: "Coffee Shop Tables",
+    title: "Industrial Coffee Shop Tables",
     src: StationTables,
     description: "Industrial Coffee Tables",
     listInfo: {
@@ -173,7 +173,7 @@ const furniture = [
     },
   },
   {
-    title: "Inlaid Dovetails",
+    title: "Inlaid Dovetail Drawer",
     src: Dovetail,
     description: "Inlaid Dovetail Drawer",
     listInfo: {
@@ -185,7 +185,7 @@ const furniture = [
     },
   },
   {
-    title: "Display Shelf",
+    title: "Walnut Display Shelf",
     src: WalnutShelf,
     description: "Walnut Craftsman Style Shelf",
     listInfo: {
@@ -197,7 +197,7 @@ const furniture = [
     },
   },
   {
-    title: "Built In Closet",
+    title: "Custom Built In Closet",
     src: Closet,
     description: "Custom Built In Closet",
     listInfo: {

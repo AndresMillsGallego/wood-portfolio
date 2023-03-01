@@ -9,7 +9,7 @@ import StairsForShoes from "../../../assets/stairs/StairsForShoes.jpg";
 
 const stairs = [
   {
-    title: "Spiral Staircase",
+    title: "Spiral Walnut Staircase",
     src: SpiralStairs,
     description: "Spiral Staircase",
     listInfo: {
@@ -21,9 +21,9 @@ const stairs = [
     },
   },
   {
-    title: "Walnut with White Oak",
+    title: "Walnut with White Oak Staircase",
     src: WalnutRail,
-    description: "#1 Common White Oak w/Walnut",
+    description: "#1 Common White Oak",
     listInfo: {
       species: "American Black Walnut and Select White Oak",
       finish: "Rubio Monocoat",
@@ -35,7 +35,7 @@ const stairs = [
   {
     title: "Old mixed with New",
     src: ReclaimedRail,
-    description: "Select White Oak w/Reclaimed Mahogany",
+    description: "Reclaimed Mahogany",
     listInfo: {
       species: "White Oak and Mahogany",
       finish: "Custom stain with 3 coats of waterborne finish",
@@ -45,7 +45,7 @@ const stairs = [
     },
   },
   {
-    title: "Modern Bamboo",
+    title: "Modern Bamboo Stair Treads",
     src: BambooStairs,
     description: "Modern Vertical Grain Bamboo",
     listInfo: {
@@ -57,9 +57,9 @@ const stairs = [
     },
   },
   {
-    title: "Hickory and Fir",
+    title: "Hickory and Fir Staircase",
     src: HickoryStairs,
-    description: "Select Hickory w/Vertical Grain Fir",
+    description: "Select Hickory",
     listInfo: {
       species: "Hickory and Vertical Grain Fir",
       finish:
@@ -72,7 +72,7 @@ const stairs = [
   {
     title: "A Place For Your Shoes",
     src: StairsForShoes,
-    description: "Square Edge Rift & Quartered White Oak",
+    description: "Square Edge White Oak",
     listInfo: {
       species: "Rift and Quartered White Oak.",
       finish: "Raw wood (later finished with waterborne finish)",
@@ -82,7 +82,7 @@ const stairs = [
     },
   },
   {
-    title: "Pie Treads",
+    title: "Select Red Oak Pie Treads",
     src: PieTreads,
     description: "Pie Stair Treads",
     listInfo: {
@@ -94,7 +94,7 @@ const stairs = [
     },
   },
   {
-    title: "A Classic Design",
+    title: "A Classic Design In Select Red Oak",
     src: SquareRail,
     description: "Classic Select Red Oak",
     listInfo: {

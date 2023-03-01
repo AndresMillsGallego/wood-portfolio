@@ -3,15 +3,13 @@
   box-shadow: 1px 2px 5px 2px;
 }
 
-img {
-  width: 100%;
-}
-
 .card-images {
   width: 100%;
   height: 20rem;
 }
-
+.card-body {
+  height: 100%;
+}
 .card-images:hover {
   cursor: zoom-in;
 }
@@ -41,4 +39,10 @@ img {
 
 .columns {
   display: flex;
+}
+
+@media (max-width: 700px) {
+  .card-images {
+    height: 30rem;
+  }
 }

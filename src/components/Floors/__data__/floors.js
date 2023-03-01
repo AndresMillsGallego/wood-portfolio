@@ -13,7 +13,7 @@ import BlackWalnut from "../../../assets/floors/BlackWalnut.jpg";
 
 const floors = [
   {
-    title: "Old VG Fir",
+    title: "Old Vertical Grain Fir Floors",
     src: FirFloors,
     description: "100+ Year Old Vertical Grain Fir",
     listInfo: {
@@ -25,7 +25,7 @@ const floors = [
     },
   },
   {
-    title: "Character Grade White Oak",
+    title: "Wide Plank Character Grade White Oak",
     src: CharacterWhiteOak,
     description: "Character Grade Plank White Oak",
     listInfo: {
@@ -37,7 +37,7 @@ const floors = [
     },
   },
   {
-    title: "Basket Weave",
+    title: "Basket Weave Pattern w/Select Red Oak and Limestone Tiles",
     src: BasketWeave,
     description: "Select Red Oak Basketweave w/Limestone",
     listInfo: {
@@ -49,7 +49,7 @@ const floors = [
     },
   },
   {
-    title: "Select White Oak with HerringBone",
+    title: "Select White Oak With HerringBone Pattern",
     src: WhiteOakWithHerringBone,
     description: "Select White Oak w/Herringbone Pattern",
     listInfo: {
@@ -61,7 +61,7 @@ const floors = [
     },
   },
   {
-    title: "French Knot",
+    title: "100% Quartersawn White Oak w/Bubinga Border",
     src: FrenchKnot,
     description: "100% Quartersawn White Oak",
     listInfo: {
@@ -73,7 +73,7 @@ const floors = [
     },
   },
   {
-    title: "Hand Scraped Walnut",
+    title: "Hand Scraped American Black Walnut",
     src: ScrapedWalnut,
     description: "American Black Walnut",
     listInfo: {
@@ -85,7 +85,7 @@ const floors = [
     },
   },
   {
-    title: "Livesawn White Oak",
+    title: "Livesawn Wide Plank White Oak",
     src: LivesawnWhiteOak,
     description: "Livesawn Plank White Oak",
     listInfo: {
@@ -97,7 +97,7 @@ const floors = [
     },
   },
   {
-    title: "Black Walnut",
+    title: "American Black Walnut Floors",
     src: BlackWalnut,
     description: "American Black Walnut",
     listInfo: {
@@ -109,7 +109,7 @@ const floors = [
     },
   },
   {
-    title: "Wide Plank Hickory",
+    title: "Wide Plank Hickory w/Custom Stain",
     src: Hickory,
     description: "Plank Select Hickory",
     listInfo: {
@@ -121,7 +121,7 @@ const floors = [
     },
   },
   {
-    title: "Red Oak With Stain",
+    title: "Classic Select Red Oak Floors",
     src: StainedRedOak,
     description: "Classic Select Red Oak",
     listInfo: {
@@ -133,7 +133,7 @@ const floors = [
     },
   },
   {
-    title: "Strand Eucalyptus",
+    title: "Strand Eucalyptus Flooring",
     src: Eucalyptus,
     description: "Strand Eucalyptus",
     listInfo: {
@@ -145,9 +145,9 @@ const floors = [
     },
   },
   {
-    title: "Rift and Quartered White Oak",
+    title: "Select Rift & Quartered White Oak",
     src: QtrWhiteOak,
-    description: "Select Rift & Quartered White Oak",
+    description: "Rift & Quartered White Oak",
     listInfo: {
       species: "Rift and Quartersawn White Oak",
       finish: "Rubio Monocoat",
