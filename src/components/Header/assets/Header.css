@@ -72,6 +72,10 @@
   #menu-div {
     width: 15%;
   }
+
+  #links {
+    width: 100%;
+  }
 }
 
 @media (max-width: 740px) {
@@ -84,5 +88,9 @@
   }
   #header-name {
     margin: auto;
+  }
+
+  #links {
+    width: 100%;
   }
 }
